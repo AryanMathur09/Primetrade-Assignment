@@ -47,5 +47,15 @@ Click "Authorize" at the top right and enter: Bearer <YOUR_TOKEN>.
 
 You can now test the Task endpoints.
 
-📈 Scalability & Architecture
+ Scalability & Architecture
 Detailed analysis on system scaling, Redis caching, and database optimization is available in SCALABILITY.md.
+
+##  API Documentation & Testing (Swagger)
+
+The backend is fully documented with Swagger UI. Below are the testing results:
+
+### 1. API Endpoints Overview
+
+### 2. Successful JWT Authentication
+
+### 3. Authorized Task Retrieval
