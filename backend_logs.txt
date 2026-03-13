@@ -1,0 +1,12 @@
+--- SYSTEM INITIALIZATION ---
+2026-03-14 02:45:01 INFO  o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter...]
+2026-03-14 02:45:05 INFO  o.h.e.t.j.p.i.JpaPersistenceProvider     : HHH000204: Processing PersistenceUnitInfo [name: default]
+
+--- AUTHENTICATION TRACE ---
+Hibernate: select u1_0.id,u1_0.email,u1_0.name,u1_0.password,u1_0.role from users u1_0 where u1_0.email=?
+2026-03-14 02:50:12 DEBUG c.p.a.service.JwtService : Token generated for user: aryan@example.com
+
+--- TASK OPERATIONS ---
+Hibernate: insert into tasks (description, status, title, user_id, id) values (?, ?, ?, ?, ?)
+2026-03-14 02:52:45 INFO  c.p.a.controller.TaskController : Task created successfully for User ID: 1
+Hibernate: select t1_0.id,t1_0.description,t1_0.status,t1_0.title from tasks t1_0 where t1_0.user_id=?
