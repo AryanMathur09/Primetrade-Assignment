@@ -59,3 +59,10 @@ The backend is fully documented with Swagger UI. Below are the testing results:
 ### 2. Successful JWT Authentication
 
 ### 3. Authorized Task Retrieval
+
+---
+## 👤 Contact & Resume
+- **Name:** Aryan Mathur
+- **Resume:** [Click here to view my Resume](https://drive.google.com/file/d/1dqZEc3a8JL0iRkjRi0hQpme1N77kZZSZ/view?usp=drive_link)
+- **LinkedIn:** [https://www.linkedin.com/in/mathuraryan/]
+- **Email:** [aryanmathur0987@gmail.com]
