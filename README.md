@@ -55,10 +55,13 @@ Detailed analysis on system scaling, Redis caching, and database optimization is
 The backend is fully documented with Swagger UI. Below are the testing results:
 
 ### 1. API Endpoints Overview
+{Screenshot 2026-03-14 030306.png}
 
 ### 2. Successful JWT Authentication
+{Screenshot 2026-03-14 030400.png}
 
 ### 3. Authorized Task Retrieval
+{Screenshot 2026-03-14 030453.png}
 
 ---
 ## 👤 Contact & Resume
